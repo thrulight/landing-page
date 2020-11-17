@@ -1,0 +1,139 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Circle cursor */
+.circle {
+	position: absolute;
+  border: solid 1px none;
+  background-color: #407BFF;
+  opacity: .2;
+	width: 50px;
+	height: 50px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+  transition-property: background,transform, cursor;
+  pointer-events: none; /* Click through */
+}
+
+button {
+  padding: 20px 40px 20px 40px;
+  font-size: 12pt;
+  border: 2px solid #407BFF;
+  background: #407BFF;
+  border-radius: 1.5vh;
+  font-weight: 600;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+  transition-duration: .2s;
+}
+
+button:hover {
+  border: 2px solid #407BFF;
+  background: white;
+  color: #407BFF;
+  transition-duration: .2s;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 36pt;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Two column */
+
+.row {
+  border: 1px solid black;
+}
+
+.first-section .column {
+  float: left;
+  padding: 80px;
+  padding-left: 15vw;
+}
+
+.first-section .left {
+  width: 60%;
+  height: 80vh;
+}
+
+.first-section .right {
+  width: 40%;
+  height: 80vh;
+  align-items: center;
+  padding: 0;
+}
+
+.first-section .right img {
+  height: 80%;
+  max-width: 100%;
+  display: flex;
+  align-self: center;
+  padding-top: 10%;
+}
+
+.txt-container {
+  width: 400px;
+  max-width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.first-section h1  {
+  margin-bottom: 100px;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.second-section {
+  height: 700px;
+}
+
+.third-section {
+  height: 300px;
+}
+
+.fourth-section {
+  height: 300px;
+}
+
+.fifth-section {
+  height: 600px;
+}
+
+.sixth-section {
+  height: 500px;
+}
+
+.footer {
+  height: 200px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}

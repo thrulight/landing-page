@@ -1,0 +1,48 @@
+/* nav bar */
+
+/* the whole navigation bar */
+.nav-bar {
+  display: flex; /*important*/
+  align-items: center; /*important*/
+
+  padding: 10px;
+  padding-right: 20px;
+}
+
+/* the navigation bar text container */
+.nav-text {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* the navigation bar text list */
+.nav-text li {
+  display: flex;
+  align-items: center;
+
+  list-style-type: none;
+  color: black;
+  font-size: .9rem;
+
+  margin-right: 50px;
+}
+
+/* the navigation bar sign up button */
+.nav-text button {
+  font-size: .9rem;
+  padding: 10px 20px 10px 20px;
+  border-radius: 1vh;
+}
+
+/* the navigation bar logo */
+.nav-logo {
+  height: 40px;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+/* nav bar */
