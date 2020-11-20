@@ -7,45 +7,10 @@ body {
   padding: 0;
 }
 
-/* Circle cursor */
-.circle {
-	position: absolute;
-  border: solid 1px none;
-  background-color: #407BFF;
-  opacity: .2;
-	width: 50px;
-	height: 50px;
-  border-radius: 50%;
-  transition: all 0.3s ease-in;
-  transition-property: background,transform, cursor;
-  pointer-events: none; /* Click through */
-}
-
-button {
-  padding: 20px 40px 20px 40px;
-  font-size: 12pt;
-  border: 2px solid #407BFF;
-  background: #407BFF;
-  border-radius: 1.5vh;
-  font-weight: 600;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  outline: none;
-  transition-duration: .2s;
-}
-
-button:hover {
-  border: 2px solid #407BFF;
-  background: white;
-  color: #407BFF;
-  transition-duration: .2s;
-}
-
 h1 {
   font-weight: 500;
   font-size: 36pt;
 }
-
 
 * {
   box-sizing: border-box;
@@ -131,9 +96,22 @@ h1 {
 
 .footer {
   height: 200px;
+  padding: 2% 0 0 94%;
+  align-items: center;
+  align-content: center;
 }
 
-p {
-  padding: 0;
-  margin: 0;
+#goToTop {
+  padding: 15px;
+  border: 2px solid white;
+  background: none;
+  border-radius: 50%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+#goToTop:hover {
+  background: white;
 }
