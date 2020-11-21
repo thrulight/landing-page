@@ -1,12 +1,3 @@
-html {
-  font-family: 'Montserrat', sans-serif;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
 h1 {
   font-weight: 500;
   font-size: 36pt;
@@ -75,15 +66,15 @@ h1 {
 }
 
 .second-section {
-  height: 700px;
+  height: 85vh;
 }
 
 .third-section {
-  height: 300px;
+  height: 50vh;
 }
 
 .fourth-section {
-  height: 300px;
+  height: 240vh;
 }
 
 .fifth-section {
@@ -94,8 +85,12 @@ h1 {
   height: 500px;
 }
 
+.seventh-section {
+  height: 80vh;
+}
+
 .footer {
-  height: 200px;
+  height: 40vh;
   padding: 2% 0 0 94%;
   align-items: center;
   align-content: center;
