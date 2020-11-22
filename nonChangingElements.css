@@ -7,6 +7,16 @@ body {
   padding: 0;
 }
 
+h1 {
+  font-weight: 500;
+  font-size: 36pt;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
 /* Circle cursor */
 .circle {
 	position: absolute;
@@ -116,6 +126,21 @@ button:hover {
   color: #407BFF;
   transition-duration: .2s;
 }
+
+.button2 {
+  border-color: white;
+}
+
+.button3 {
+  background: none;
+  color: #407BFF;
+}
+
+.button3:hover {
+  background: #407BFF;
+  color: white;
+}
+
 /* end of button */
 
 p {
