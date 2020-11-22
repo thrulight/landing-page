@@ -241,9 +241,46 @@
 
 /* end of fourth section */
 
+/* fifth section */
 .fifth-section {
-  height: 600px;
+  height: 100%;
+  border: none;
 }
+
+.fifth-section .column {
+  float: left;
+  padding: 80px;
+}
+
+.fifth-section .left img {
+  width: 100%;
+  display: flex;
+  align-self: center;
+}
+
+.fifth-section .left {
+  width: 30%;
+  height: 100%;
+  padding-left: 20vh;
+}
+
+.fifth-section .right {
+  width: 70%;
+  height: 100%;
+  align-items: center;
+  padding: 13vh 25vh 50px 0;
+}
+
+.fifth-section .txt-container {
+  width: 100%;
+}
+
+.fifth-section h3 {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+/* end of fifth section */
 
 .sixth-section {
   height: 500px;
@@ -253,12 +290,31 @@
   height: 80vh;
 }
 
+/* footer */
+
 .footer {
   height: 40vh;
-  padding: 2% 0 0 94%;
-  align-items: center;
-  align-content: center;
+  color: white;
 }
+
+.footer .column {
+  float: left;
+  padding: 0;
+  border: 1px solid black;
+}
+
+.footer .big {
+  width: 15%;
+  height: 100%;
+}
+
+.footer .small {
+  width: 12.5%;
+  height: 100%;
+  align-items: center;
+}
+
+/* end of footer */
 
 #goToTop {
   padding: 15px;
@@ -266,9 +322,6 @@
   background: none;
   border-radius: 50%;
   display: flex;
-  align-content: center;
-  align-items: center;
-  align-self: center;
 }
 
 #goToTop:hover {
