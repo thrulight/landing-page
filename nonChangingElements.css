@@ -12,9 +12,28 @@ h1 {
   font-size: 36pt;
 }
 
+h2 {
+  font-weight: 500;
+  font-size: 1.5em;
+  padding: 20px 70px 0 70px;
+  text-align: center;
+}
+
 h3 {
   font-weight: 400;
   font-size: 1.1em;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  margin: 0 10% 0 10%;
+  border: none;
+  border-bottom: 2px solid rgba(96, 95, 109, 0.1);
+  outline: none;
 }
 
 /* Circle cursor */
@@ -108,7 +127,7 @@ h3 {
 
 /* button */
 button {
-  padding: 15px 30px 15px 30px;
+  padding: 15px 20px 15px 20px;
   font-size: 12pt;
   border: 2px solid #407BFF;
   background: #407BFF;
@@ -129,11 +148,20 @@ button:hover {
 
 .button2 {
   border-color: white;
+  font-weight: 400;
+  font-size: .9em;
+}
+
+.button2:hover {
+  font-weight: 500;
+  border-color: white;
 }
 
 .button3 {
   background: none;
   color: #407BFF;
+  font-weight: 600;
+  font-size: .9em;
 }
 
 .button3:hover {
@@ -142,15 +170,3 @@ button:hover {
 }
 
 /* end of button */
-
-p {
-  padding: 0;
-  margin: 0;
-}
-
-hr {
-  margin: 0 10% 0 10%;
-  border: none;
-  border-bottom: 2px solid rgba(96, 95, 109, 0.1);
-  outline: none;
-}
