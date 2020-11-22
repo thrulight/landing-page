@@ -65,10 +65,6 @@ h1 {
   clear: both;
 }
 
-.second-section {
-  height: 85vh;
-}
-
 .third-section {
   height: 50vh;
 }
@@ -110,3 +106,87 @@ h1 {
 #goToTop:hover {
   background: white;
 }
+
+.second-section h1 {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 50px 0 40px 0;
+}
+
+.second-section .row {
+  padding: 5% 15% 5% 15%;
+  margin: 0;
+}
+
+.second-section .column {
+  color: white;
+  float: left;
+  width: 30%;
+  height: 50vh;
+  margin: 1.3%;
+  position: relative;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1%;
+}
+
+/* fourth section */
+
+.fourth-section button {
+  
+}
+
+.first-part .column {
+  float: left;
+  padding: 80px;
+  padding-left: 15vw;
+}
+
+.first-part .left {
+  width: 60%;
+  height: 80vh;
+}
+
+.first-part .right {
+  width: 40%;
+  height: 80vh;
+  align-items: center;
+  padding: 0;
+}
+
+.first-part .right img {
+  height: 80%;
+  max-width: 100%;
+  display: flex;
+  align-self: center;
+  padding-top: 10%;
+}
+
+.second-part .column {
+  float: left;
+  padding: 80px;
+  padding-left: 15vw;
+}
+
+.second-part .left {
+  width: 60%;
+  height: 80vh;
+}
+
+.second-part .right {
+  width: 40%;
+  height: 80vh;
+  align-items: center;
+  padding: 0;
+}
+
+.second-part .right img {
+  height: 80%;
+  max-width: 100%;
+  display: flex;
+  align-self: center;
+  padding-top: 10%;
+}
+
+/* end of fourth section */
