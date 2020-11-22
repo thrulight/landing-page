@@ -98,7 +98,7 @@ body {
 
 /* button */
 button {
-  padding: 20px 40px 20px 40px;
+  padding: 15px 30px 15px 30px;
   font-size: 12pt;
   border: 2px solid #407BFF;
   background: #407BFF;
@@ -121,4 +121,11 @@ button:hover {
 p {
   padding: 0;
   margin: 0;
+}
+
+hr {
+  margin: 0 10% 0 10%;
+  border: none;
+  border-bottom: 2px solid rgba(96, 95, 109, 0.1);
+  outline: none;
 }
