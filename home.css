@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 /* hello */
 .rectangle {
   transform: scale(.7);
@@ -78,21 +79,13 @@
 }
 /* end of first section */
 
-/* third section */
-.third-section {
-  height: 50vh;
-}
-.third-section h1 {
-  text-align: center;
-  color: black;
-  margin: 0;
-  padding: 70px 0 40px 0;
-}
-/* end of third section */
-
 /* second section */
 .second-section span {
   font-weight: 600;
+}
+
+.second-section h2 {
+  padding: 20px 0 0 0;
 }
 
 .second-section p {
@@ -116,13 +109,9 @@
 }
 
 .second-section button {
-  padding-left: 0;
-  padding-right: 0;
-  width: 40%;
-  bottom: 0;
-  left: 30%;
-  right: 30%;
-  position: absolute;
+  display: block;
+  margin: auto;
+  margin-top: 1vh;
 }
 
 .second-section .row {
@@ -142,11 +131,19 @@
   text-align: center;
   padding: 2%;
 }
+
 /* end of second section */
 
 /* third section */
-
-
+.third-section {
+  height: 50vh;
+}
+.third-section h1 {
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 70px 0 40px 0;
+}
 /* end of third section */
 
 /* fourth section */
