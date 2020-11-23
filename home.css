@@ -82,6 +82,12 @@
 .third-section {
   height: 50vh;
 }
+.third-section h1 {
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 70px 0 40px 0;
+
 /* end of third section */
 
 /* second section */
