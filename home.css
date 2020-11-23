@@ -20,6 +20,10 @@
 }
 
 /* first section */
+.first-section {
+  border: none;
+}
+
 .first-section .column {
   float: left;
   padding: 80px;
@@ -62,6 +66,7 @@
 
 .first-section h1  {
   margin-bottom: 100px;
+  margin-top: 0;
 }
 
 .first-section .left {
