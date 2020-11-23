@@ -24,15 +24,15 @@
 
 </head>
 <body>
-  <div class="nav-bar">
+  <div id="topPage" class="nav-bar">
     <img class="nav-logo" src="logo-full.png">
     <ul class="nav-text">
-      <li href="about.html">Tool renting</li>
-      <li href="contact.html">Helping hands</li>
+      <li onclick="toolRenting()">Tool renting</li>
+      <li onclick="helpingHands()">Helping hands</li>
       <li style="color:#407BFF; font-weight:600" href="projects.html">Log in</li>
-      <button href="projects.html">Sign up</button>
+      <button onclick="footer()">Sign up</button>
     </ul>
-</div>
+  </div>
 <div class="mainPageContainer">
 
 <!-- Your go-to platform -->
@@ -40,7 +40,7 @@
     <div class="column left">
       <h1>Your go-to platform for repairing things</h1>
       <div class="txt-container">
-        <p>Get access to thousands of tutorials, find the tools and pieces you need and get a helping hand from our community.</p>
+        <p>Get access to <span>tutorials</span>, find the <span>tools</span> and <span>pieces</span> you need and get a <span>helping hand</span> from our community.</p>
       </div>
       <br/>
       <br/>
@@ -57,36 +57,36 @@
 
     <div class="row">
       <div class="column">
-        <img src="information.svg" alt="">
+        <img src="information.svg"  alt="">
         <h2>Access to information</h2>
-        <img src="rectangle-white.svg" alt="">
+        <img src="rectangle-white.svg" class="rectangle" alt="">
         <br>
         <p>Our platform allows to <span>get access to the knowledge</span> needed to specific repairs.</p>
         <br>
         <br>
-        <button type="button" class="button2">Learn more</button>
+        <button onclick="knowledge()" type="button" class="button2">Learn more</button>
       </div>
 
       <div class="column">
         <img src="tool-renting.svg" alt="">
         <h2>Tool renting</h2>
-        <img src="rectangle-white.svg" alt="">
+        <img src="rectangle-white.svg" class="rectangle" alt="">
         <br>
         <p>We also allow you to <span>rent tools</span> from people around you.</p>
         <br>
         <br>
-        <button type="button" class="button2">Learn more</button>
+        <button onclick="toolRenting()" type="button" class="button2">Learn more</button>
       </div>
 
       <div class="column">
         <img src="helping-hands.svg" alt="">
         <h2>Helping hands</h2>
-        <img src="rectangle-white.svg" alt="">
+        <img src="rectangle-white.svg" class="rectangle" alt="">
         <br>
         <p>We also offer an easy way to find people to help you repair your object.</p>
         <br>
         <br>
-        <button type="button" class="button2">Learn more</button>
+        <button onclick="helpingHands()" type="button" class="button2">Learn more</button>
       </div>
     </div>
   </div>
@@ -101,8 +101,11 @@
 
     <div class="first-part row">
 
-      <div class="column left">
-        <h1>Get access to the right knowledge</h1>
+      <div id="knowledge" class="column left">
+        <h4>Get access to the right knowledge</h4>
+        <img src="rectangle-black.svg" class="rectangle" alt="">
+        <br>
+        <br>
         <br>
         <div class="txt-container">
           <h3>We provide you with top-rated tutorials to make sure you will have quality knowledge to achieve your repairs. </h3>
@@ -127,8 +130,11 @@
         <img src="screen_2.png" alt="Product teardown">
       </div>
 
-      <div class="column right">
-        <h1>Book tools that you need in a few seconds</h1>
+      <div id="toolRenting" class="column right">
+        <h4>Book tools that you need in a few seconds</h4>
+        <img src="rectangle-black.svg" class="rectangle" alt="">
+        <br>
+        <br>
         <br>
         <div class="txt-container">
           <h3>You will need specific tools for certain repairs. We know this is usually costly. 💰</h3>
@@ -146,8 +152,11 @@
 
     <div class="third-part row">
 
-      <div class="column left">
-        <h1>Easily find people around you</h1>
+      <div id="helpingHands" class="column left">
+        <h4>Easily find people around you</h4>
+        <img src="rectangle-black.svg" class="rectangle" alt="">
+        <br>
+        <br>
         <br>
         <div class="txt-container">
           <h3>You will be impressed at how friendly people in your neighborhood are. 😊</h3>
@@ -167,7 +176,7 @@
 
   </div>
 
-<!-- Testamonial -->
+<!-- Testimonial -->
   <div style="background-color:#ffffff" class="fifth-section row">
 
     <div class="column left">
@@ -199,10 +208,12 @@
     <div class="column small"></div>
 
     <div class="column big">
-      <div class="txt-container">
-        <p>FixMeUp</p>
         <img src="logo-white.png" alt="" width="100">
-      </div>
+        <br>
+        <br>
+        <br>
+        <p>Terms and Conditions</p>
+        <p>© FixMeUp GmbH, 2020</p>
     </div>
 
     <div class="column big"></div>

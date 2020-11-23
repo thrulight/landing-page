@@ -19,11 +19,26 @@ jQuery(document).ready(function() {
 
 });
 
-//Button go back to top
-mybutton = document.getElementById("goToTop");
-
 // Scroll to the top of the page
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  var topPage = document.getElementById("topPage");
+  topPage.scrollIntoView({behavior: "smooth"});
+}
+
+// Scroll to tool renting
+function toolRenting() {
+  var toolRentingSection = document.getElementById("toolRenting");
+  toolRentingSection.scrollIntoView({behavior: "smooth"});
+}
+
+// Scroll to helping hands
+function helpingHands() {
+  var helpingHandsSection = document.getElementById("helpingHands");
+  helpingHandsSection.scrollIntoView({behavior: "smooth"});
+}
+
+// Scroll to knowledge
+function knowledge() {
+  var knowledgeSection = document.getElementById("knowledge");
+  knowledgeSection.scrollIntoView({behavior: "smooth"});
 }
