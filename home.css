@@ -177,7 +177,7 @@
   float: left;
   padding: 80px;
   padding-left: 12vw;
-  border: 1px solid black;
+  border: none;
 }
 
 .first-part .left {
@@ -211,7 +211,7 @@
   float: left;
   padding: 80px;
   padding-left: 5vw;
-  border: 1px solid black;
+  border: none;
 }
 
 .second-part .left {
