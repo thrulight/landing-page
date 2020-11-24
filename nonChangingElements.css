@@ -133,7 +133,7 @@ hr {
 /* button */
 button {
   padding: 15px 25px 15px 25px;
-  font-size: 12pt;
+  font-size: .9em;
   border: 2px solid #407BFF;
   background: #407BFF;
   border-radius: 1.5vh;
