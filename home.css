@@ -129,13 +129,26 @@
 
 /* third section */
 .third-section {
-  height: 50vh;
+  height: 100%;
+  padding: 12vh 0 12vh 0;
+  border: none;
 }
 .third-section h4 {
   text-align: center;
   color: black;
   margin: 0;
-  padding: 70px 0 40px 0;
+  margin-bottom: 7vh;
+}
+
+/* to center the elements in the div */
+.third-section .buttonCenter {
+  display: flex;
+  justify-content: center;
+}
+
+/* the margin between the two buttons */
+.third-section button {
+  margin: 2vh;
 }
 /* end of third section */
 
