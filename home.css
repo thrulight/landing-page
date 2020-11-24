@@ -177,6 +177,7 @@
   float: left;
   padding: 80px;
   padding-left: 12vw;
+  border: 1px solid black;
 }
 
 .first-part .left {
@@ -210,6 +211,7 @@
   float: left;
   padding: 80px;
   padding-left: 5vw;
+  border: 1px solid black;
 }
 
 .second-part .left {
@@ -317,9 +319,41 @@
   height: 30vh;
 }
 
+/* sixth section : our team */
 .seventh-section {
-  height: 80vh;
+  height: 100%;
+  padding: 5% 12% 5% 12%;
+  border: none;
 }
+
+.seventh-section .row {
+  border: none;
+}
+
+.team p {
+  font-size: .8em;
+}
+
+.team .column {
+	float: left;
+	padding: 0;
+	text-align: center;
+	width: 25%;
+	height: 100%;
+	padding: 4vh;
+  border: none;
+}
+
+.team h3 {
+  font-weight: 600;
+}
+
+.seventh-section button {
+  margin: auto;
+  display: block;
+  margin-top: 5vh;
+}
+/* end of sixth section : our team */
 
 /* footer */
 .footer .row {
