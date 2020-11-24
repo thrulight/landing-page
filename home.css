@@ -406,6 +406,11 @@
   display: block;
   margin-top: 5vh;
 }
+
+.seventh-section button:hover > a {
+  color: white !important;
+}
+
 /* end of seventh section : our team */
 
 /* footer */
