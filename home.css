@@ -342,6 +342,7 @@
   border: 1px solid #407BFF;
   border-radius: 1.5vh;
   box-sizing: border-box;
+  outline: none;
 }
 
 .sixth-section .rightPart {
