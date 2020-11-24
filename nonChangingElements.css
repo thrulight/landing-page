@@ -35,8 +35,6 @@ p {
   margin: 0;
 }
 
-
-
 hr {
   margin: 0 10% 0 10%;
   border: none;
@@ -92,6 +90,8 @@ hr {
 
   margin-right: 50px;
 }
+
+
 
 /* the navigation bar sign up button */
 .nav-text button {
