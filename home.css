@@ -319,7 +319,7 @@
   height: 30vh;
 }
 
-/* sixth section : our team */
+/* seventh section : our team */
 .seventh-section {
   height: 100%;
   padding: 5% 12% 5% 12%;
@@ -336,16 +336,20 @@
 
 .team .column {
 	float: left;
-	padding: 0;
 	text-align: center;
 	width: 25%;
 	height: 100%;
 	padding: 4vh;
   border: none;
+  margin-top: 2vh;
 }
 
 .team h3 {
   font-weight: 600;
+}
+
+.team img {
+  width: 90%;
 }
 
 .seventh-section button {
@@ -353,7 +357,7 @@
   display: block;
   margin-top: 5vh;
 }
-/* end of sixth section : our team */
+/* end of seventh section : our team */
 
 /* footer */
 .footer .row {
