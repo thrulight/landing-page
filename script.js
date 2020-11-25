@@ -42,3 +42,12 @@ function knowledge() {
   var knowledgeSection = document.getElementById("knowledge");
   knowledgeSection.scrollIntoView({behavior: "smooth"});
 }
+
+//Dark mode button
+function darkMode() {
+
+
+  document.body.style.cssText = "{background-color: blue;}";
+}
+
+//document.body.style.cssText = {'background-color: #222 !important';'color: red !important'};
