@@ -92,6 +92,10 @@
   margin-top: 1vh;
 }
 
+.second-section {
+  background-color:#407BFF;
+}
+
 .second-section .row {
   padding: 0 15% 5% 15%;
   margin: 0;
@@ -120,7 +124,6 @@
 }
 .third-section h4 {
   text-align: center;
-  color: black;
   margin: 0;
   margin-bottom: 7vh;
 }
@@ -135,11 +138,13 @@
 .third-section button {
   margin: 2vh;
 }
+
 /* #endregion of third section */
 
 /* #region Details of features: fourth section */
 .fourth-section {
   height: 100%;
+  background-color:#ededed
 }
 
 .fourth-section .txt-container {
@@ -379,6 +384,7 @@
   padding: 5% 12% 5% 12%;
   display: flex; /*important*/
   align-items: center; /*important*/
+  background-color: #ededed;
 }
 
 .sixth-section input[type=text], select {

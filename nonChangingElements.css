@@ -5,8 +5,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
-  color: black;
 }
 
 hr {
@@ -26,6 +24,33 @@ hr {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+
+/* #region dark mode */
+.dark-mode {
+  background-color: #222 !important;
+  color: white !important;
+  cursor: url("wrench_white.svg") 5 5, auto !important;
+}
+
+.dark-mode * {
+  background-color: #222;
+  color: white;
+  fill: white;
+}
+
+.dark-mode .dark-toggle *, .dark-mode .dark-toggle {
+  background-color: #444 !important;
+  color: white;
+  fill: white;
+}
+
+.dark-mode #goToTop:hover * {
+  background-color: white !important;
+  fill: #222 !important;
+  color: #222 !important;
+}
+
+/* #endregion dark mode */
 
 /* #region headings and paragraph */
 h1 {
@@ -65,6 +90,7 @@ p {
 	width: 50px;
 	height: 50px;
   border-radius: 50%;
+  z-index: 1;
   transition: all 0.3s ease-in;
   transition-property: background,transform, cursor;
   pointer-events: none; /* Click through */
@@ -98,7 +124,6 @@ p {
   align-items: center;
 
   list-style-type: none;
-  color: black;
   font-size: .9rem;
 
   margin-right: 50px;
@@ -111,9 +136,21 @@ p {
 /* the navigation bar sign up button */
 .nav-text button {
   font-size: .9rem;
-  padding: 1.5vh 2vh 1.5vh 2vh;
+  padding: 1%;
   border-radius: 1vh;
+  height: 6vh;
 }
+
+/* dark toggle button */
+.nav-text .dark-toggle {
+  padding: 0 1.5vh 0 1.5vh;
+  height: 6vh;
+  font-size: .5em;
+  margin-left: 3vh;
+  background-color: #444;
+  border: none;
+}
+
 
 /* the navigation bar logo */
 .nav-logo {

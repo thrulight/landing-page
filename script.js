@@ -45,9 +45,5 @@ function knowledge() {
 
 //Dark mode button
 function darkMode() {
-
-
-  document.body.style.cssText = "{background-color: blue;}";
+  document.body.classList.toggle("dark-mode");
 }
-
-//document.body.style.cssText = {'background-color: #222 !important';'color: red !important'};
