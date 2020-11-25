@@ -27,9 +27,9 @@ hr {
 
 /* #region dark mode */
 .dark-mode {
-  background-color: #222 !important;
-  color: white !important;
-  cursor: url("wrench_white.svg") 5 5, auto !important;
+  background-color: #222;
+  color: white;
+  cursor: url("wrench_white.svg") 5 5, auto;
 }
 
 .dark-mode * {
@@ -39,17 +39,14 @@ hr {
 }
 
 .dark-mode .dark-toggle *, .dark-mode .dark-toggle {
-  background-color: #444 !important;
-  color: white;
-  fill: white;
+  background-color: white !important;
+  color: #222;
 }
 
 .dark-mode #goToTop:hover * {
   background-color: white !important;
-  fill: #222 !important;
-  color: #222 !important;
+  color: #222;
 }
-
 /* #endregion dark mode */
 
 /* #region headings and paragraph */
