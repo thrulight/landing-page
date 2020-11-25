@@ -318,6 +318,70 @@
   margin: 0;
   text-align: justify;
 }
+.fifth-section .sub-text-containers {
+  padding-top: 20px;
+  width: 100%;
+  float: left;
+}
+.fifth-section .toolkit {
+  width: 20%;
+  height: 20%;
+  padding-right: 0vh;
+  float:right;
+}
+.fifth-section .toolkit img {
+  width: 150%;
+  display: flex;
+  align-self: right;
+  float:right;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px, rgba(0, 0, 0, 0.13) 0px 0px 0px;
+  display: flex;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s, 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(51, 51, 51, 0.07);
+  border-image: initial;
+  padding: 12px 16px;
+}
+
+.fifth-section .toolkit :hover {
+  width: 150%;
+  display: flex;
+  align-self: right;
+  float:right;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px, rgba(0, 0, 0, 0.20) 0px 0px 0px;
+    display: flex;
+    background:#D3D3D3;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s, 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #D3D3D3;
+    border-image: initial;
+    padding: 12px 16px;
+}
+
+.fifth-section h3 {
+  font-size: 1.3em;
+  margin: 30;
+  text-align: justify;
+}
+
+.fifth-section h2 {
+  font-size: 2 em;
+  margin: 0;
+  text-align: justify;
+  font-weight:bold;
+}
+.fifth-section h6 {
+  font-size: 2 em;
+  margin: 0;
+  text-align: justify;
+}
 
 /* end of fifth section */
 
