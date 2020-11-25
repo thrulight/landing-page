@@ -1,19 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-
-.row {
-  border: 1px solid black;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* first section */
+/* #region Your go-to platform: first section */
 .first-section {
   border: none;
 }
@@ -70,9 +55,9 @@
 .first-section .right {
   width: 40%;
 }
-/* end of first section */
+/* #endregion of first section */
 
-/* second section */
+/* #region What we provide: second section */
 .second-section span {
   font-weight: 600;
 }
@@ -125,9 +110,9 @@
   padding: 2%;
 }
 
-/* end of second section */
+/* #endregion of second section */
 
-/* third section */
+/* #region Interested in joining the community: third section */
 .third-section {
   height: 100%;
   padding: 12vh 0 12vh 0;
@@ -150,9 +135,9 @@
 .third-section button {
   margin: 2vh;
 }
-/* end of third section */
+/* #endregion of third section */
 
-/* fourth section */
+/* #region Details of features: fourth section */
 .fourth-section {
   height: 100%;
 }
@@ -171,7 +156,7 @@
   width: 350px;
 }
 
-/* first part */
+/* #region first part */
 .first-part h4 {
   margin: 0;
   margin-bottom: 1vh;
@@ -205,9 +190,9 @@
   padding-top: 10%;
   padding-bottom: 10%;
 }
-/* end of first part */
+/* #endregion of first part */
 
-/* second part */
+/* #region second part */
 .second-part h4 {
   margin: 0;
   margin-bottom: 1vh;
@@ -241,9 +226,9 @@
   padding-bottom: 10%;
   margin-left: 20%;
 }
-/* end of second part */
+/* #endregion of second part */
 
-/* third part */
+/* #region third part */
 .third-part h4 {
   margin: 0;
   margin-bottom: 1vh;
@@ -275,11 +260,11 @@
   padding-top: 15%;
   padding-bottom: 10%;
 }
-/* end of third part */
+/* #endregion of third part */
 
-/* end of fourth section */
+/* #endregion of fourth section */
 
-/* fifth section */
+/* #region Testimonial: fifth section */
 .fifth-section {
   height: 100%;
   border: none;
@@ -383,11 +368,10 @@
   text-align: justify;
 }
 
-/* end of fifth section */
+/* #endregion of fifth section */
 
-/* sixth section : want to learn more */
+/* #region Want to learn more: sixth section */
 
-/* #region */
 .sixth-section {
   height: 100%;
   width: 100%;
@@ -431,10 +415,9 @@
   padding: 1% 4% 1% 4%;
 }
 
-/* #endregion */
-/* end of sixth section */
+/* #endregion sixth section */
 
-/* seventh section : our team */
+/* #region Our team: seventh section */
 .seventh-section {
   height: 100%;
   padding: 5% 12% 5% 12%;
@@ -477,9 +460,9 @@
   color: white !important;
 }
 
-/* end of seventh section : our team */
+/* #endregion of seventh section */
 
-/* footer */
+/* #region footer */
 .footer .row {
   padding-top: 10vh;
 }
@@ -523,8 +506,6 @@
   align-items: center;
 }
 
-/* end of footer */
-
 #goToTop {
   padding: 15px;
   border: 2px solid white;
@@ -540,3 +521,5 @@
 #goToTop:hover {
   background: white;
 }
+
+/* #endregion of footer */
