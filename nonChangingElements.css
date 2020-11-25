@@ -47,6 +47,11 @@ hr {
   background-color: white !important;
   color: #222;
 }
+
+.dark-mode .second-section *, .dark-mode .fourth-section *, .dark-mode .sixth-section, .dark-mode .sixth-section *, .dark-mode .footer * {
+  background-color: #121212 !important;
+}
+
 /* #endregion dark mode */
 
 /* #region headings and paragraph */
