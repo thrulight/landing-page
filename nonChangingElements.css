@@ -7,6 +7,11 @@ body {
   padding: 0;
 }
 
+::selection {
+  background: #222;
+  color: white;
+}
+
 hr {
   margin: 0 10% 0 10%;
   border: none;
@@ -43,13 +48,13 @@ hr {
   color: #222;
 }
 
-.dark-mode #goToTop:hover * {
+.dark-mode #goToTop:hover *, .dark-mode #goToTop:hover {
   background-color: white !important;
-  color: #222;
+  color: #181818;
 }
 
 .dark-mode .second-section *, .dark-mode .fourth-section *, .dark-mode .sixth-section, .dark-mode .sixth-section *, .dark-mode .footer * {
-  background-color: #121212 !important;
+  background-color: #181818 !important;
 }
 
 /* #endregion dark mode */
